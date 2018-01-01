@@ -1,0 +1,87 @@
+#lefttop
+{
+	height:100%;
+	width:180px;
+	background-color:31353d;
+	color:white;
+	display:inline-block;
+
+}
+#topp
+{
+	
+	height:95px;
+	background-color:e9edf2;
+	width:1130px;
+	
+	
+}
+#topleft
+{
+	height:20px;
+	width:600px;
+	display:inline block;
+	
+	
+}
+img
+{
+	margin-top:30px;
+}
+#top
+{
+	float:right;
+	height:66px;
+	
+	
+	color:black;
+	text-align:right;
+	
+	
+}
+#topmain{
+	
+	float:right;
+}
+#midright
+{
+	margin-top:30px;
+	float:right;
+	height:500px;
+	width:1130px;
+	background-color:e9edf2;
+	color:black;
+	
+	
+}
+#adminsignupform
+{
+	display:inline-block;
+}
+#admintable
+{
+	float:right;
+}
+h3
+{
+	margin-top:30px;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:white;
+	
+}
+.righttop
+{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	width:300px;
+	height:20px;
+	
+}
+.clear{
+	clear:both;
+}
+

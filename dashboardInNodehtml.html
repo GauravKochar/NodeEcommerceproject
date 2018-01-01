@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>LOGIN PAGE</title>
+<link href="dashboardstyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+		<div id="lefttop" class="clear">
+		<h3>Dashboard<br><br><br>
+		<a id="showadmins">Admins</a>
+		<br><hr>
+		<a href="http://127.0.0.1:12000/addproductinnode.html" id="product">Products</a>
+		<br><hr>
+		<a href="http://127.0.0.1:12000/placeorderInNodeHtml.html" id="orders">Orders</a>
+		<br><hr>	
+		</div>
+		
+		<div id="topmain">
+		
+			<div id="topp">
+				<div id="topleft">
+				<!--<img src="C:\Users\Gaurav\Downloads\Welcome_to_D_19547.gif">-->
+				</div>
+			
+				<div id="top" class="clear"><i>
+						<label id="lblnameid" class="righttop"></label><br><br>
+						<a href="/"id="logoutid"class="righttop" href="">Logout</a></i>
+				</div>
+				
+			</div>
+			
+		
+		<div  id="midright" class="clear" >
+		
+		<div id="adminsignupform" >
+		<h2>Add more Admins<br><br></h2>
+		 Name   :<input type="text" id="fname" placeholder="Full Name"> <br><br>
+		Email Id  :<input type="text" id="eid" ><br><br>
+		Password:<input type="password" id="password"><br><br>
+		Confirm Password:<input type="password" id="confirmpass"><br><br>
+		Mobile No  :<input type="text" id="mno" ><br>
+		<label id="msgid"></label><br>
+		<label id="labelmsgmobile"></label><br>
+		<input type="button" id="signinbtn" value="SignUp">	
+		</div>
+		
+		<table id="admintable" cellspacing="50" >
+		<tr>
+		<th>
+		Name
+		</th>
+		
+		<th>
+		EmailId
+		</th>
+		
+		<th>
+		Mobile No
+		</th>
+		
+		
+		<th>
+		Delete
+		</th>
+		
+		<th>
+		
+		</th>
+		
+		<th style="display:none;">
+		Added By
+		</th>
+		
+		<th style="display:none;">
+		active
+		</th>
+		</tr>
+		</table>
+	
+		</div>
+		</div>
+		
+		
+		<script src="dash.js">
+		<!--alert("jai magsnbjs");-->
+		</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#newproduct
+{  
+	padding:20px;
+ 	width:600px;
+	border:2px solid black;
+	border-style:dotted;
+	background-color:gray;
+	
+	
+}
+#savebutton
+{
+	width:70px;
+	height:30px;
+}
+#manipulate
+{
+	margin-left:40%;
+}
+#table {
+	background-color:gray;
+	
+}

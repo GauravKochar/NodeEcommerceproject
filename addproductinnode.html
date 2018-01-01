@@ -1,0 +1,42 @@
+<html>
+<head>
+<link href="myrealstyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<input id="addproduct"type="button" value="add product">
+<div id="newproduct" style="display:none">
+
+<h3>
+Product name: <input type="text" id="pnamebox"><br><br>
+Product Price: <input type="number" id="ppricebox"><br><br>
+Product Desc: <input type="text" id="pdescbox"><br><br>
+Product Quantity: <input type="number" id="pquantitybox"><br><br>
+<input type="button" id="savebutton" value="save">
+<input type="button" id="editsavebutton" value="save">
+
+</h3>
+</div>
+
+<div id="wrapper" style="display:block;">
+<h1>Product List</h1>
+<p>Add tasks to your list by typing to the right and press-ing enter. You may then view pending tasks below.</p>
+</div>
+<div >
+<table  id="table" cellspacing="10">
+<tr>
+
+<th>Product Name</th>
+<th>Product Price</th>
+<th>Product Description</th>
+<th>Product Quantity</th>
+<th>Delete</th>
+<th>Edit</th>
+</tr>
+</table>
+</div>
+
+<script src="addproductScriptInNode.js"></script>
+
+</body>
+
+</html>
